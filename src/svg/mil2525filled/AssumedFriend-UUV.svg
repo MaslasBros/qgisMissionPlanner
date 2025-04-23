@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="63.999996"
+   viewBox="0 0 64 63.999996"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1"
+     style="display:inline">
+    <g
+       id="g88"
+       style="display:inline">
+      <path
+         d="M 59.031869,0.99999994 C 59.031869,50.60991 39.372338,60.53187 32.000012,60.53187 24.627679,60.53187 4.9681315,50.60991 4.9681315,0.99999994"
+         stroke-width="2.52577"
+         stroke="#000000"
+         fill="#80e0ff"
+         fill-opacity="1"
+         id="path86"
+         style="stroke-width:4.93626;stroke-miterlimit:4;stroke-dasharray:4.93626, 2.96176;stroke-dashoffset:2.96176" />
+      <path
+         d="M 16.374754,21.665498 32,29.478118 47.625246,21.665498 v 3.12505 L 32,34.556328 16.374754,24.790548 Z"
+         stroke-width="5"
+         stroke="none"
+         fill="#000000"
+         id="path93"
+         style="stroke-width:5;stroke-miterlimit:4;stroke-dasharray:none" />
+      <path
+         id="path88"
+         style="overflow:visible;fill:none;fill-rule:evenodd;stroke-width:5;stroke-linecap:square;stroke-dashoffset:5;stroke-opacity:0.996078;paint-order:fill markers stroke"
+         d="M 0,1e-6 H 64 V 63.999999 H 0 Z" />
+    </g>
+  </g>
+</svg>
