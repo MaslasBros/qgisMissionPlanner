@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="64"
+   height="63.999996"
+   viewBox="0 0 64 63.999996"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="g244"
+     style="display:inline">
+    <g
+       id="g199"
+       style="display:inline">
+      <g
+         id="circle198">
+        <path
+           style="color:#000000;fill:#000000;fill-opacity:0;-inkscape-stroke:none"
+           d="M 60.543415,32 A 28.543415,28.543415 0 0 1 32,60.543415 28.543415,28.543415 0 0 1 3.4565849,32 28.543415,28.543415 0 0 1 32,3.4565849 28.543415,28.543415 0 0 1 60.543415,32 Z"
+           id="path358" />
+        <path
+           style="color:#000000;fill:#80e0ff;-inkscape-stroke:none"
+           d="M 32,1 C 14.908287,1 1,14.908287 1,32 1,49.091713 14.908287,63 32,63 49.091713,63 63,49.091713 63,32 63,14.908287 49.091713,1 32,1 Z m 0,4.9140625 C 46.436441,5.9140625 58.085937,17.563559 58.085937,32 58.085937,46.436441 46.436441,58.085937 32,58.085937 17.563559,58.085937 5.9140625,46.436441 5.9140625,32 5.9140625,17.563559 17.563559,5.9140625 32,5.9140625 Z"
+           id="path359" />
+      </g>
+      <path
+         id="path199"
+         style="overflow:visible;fill:none;fill-rule:evenodd;stroke-width:5;stroke-linecap:square;stroke-dashoffset:5;stroke-opacity:0.996078;paint-order:fill markers stroke"
+         d="M 0,1e-6 H 64 V 63.999999 H 0 Z" />
+    </g>
+  </g>
+</svg>
