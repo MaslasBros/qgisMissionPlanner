@@ -1,18 +1,18 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis version="3.40.9-Bratislava" autoRefreshTime="0" styleCategories="AllStyleCategories" minScale="1e+08" readOnly="0" maxScale="0" hasScaleBasedVisibilityFlag="0" autoRefreshMode="Disabled">
+<qgis autoRefreshMode="Disabled" readOnly="0" autoRefreshTime="0" styleCategories="AllStyleCategories" version="3.40.9-Bratislava" maxScale="0" minScale="1e+08" hasScaleBasedVisibilityFlag="0">
   <flags>
     <Identifiable>1</Identifiable>
     <Removable>1</Removable>
     <Searchable>1</Searchable>
     <Private>0</Private>
   </flags>
-  <temporal accumulate="0" endField="" durationField="rowid" startField="" durationUnit="min" mode="0" limitMode="0" enabled="0" endExpression="" startExpression="" fixedDuration="0">
+  <temporal startField="" durationField="rowid" fixedDuration="0" mode="0" startExpression="" accumulate="0" enabled="0" endExpression="" limitMode="0" durationUnit="min" endField="">
     <fixedRange>
       <start></start>
       <end></end>
     </fixedRange>
   </temporal>
-  <elevation binding="Centroid" symbology="Line" zoffset="0" type="IndividualFeatures" showMarkerSymbolInSurfacePlots="0" respectLayerSymbol="1" extrusion="0" zscale="1" extrusionEnabled="0" clamping="Terrain">
+  <elevation clamping="Terrain" symbology="Line" zscale="1" type="IndividualFeatures" extrusionEnabled="0" respectLayerSymbol="1" extrusion="0" binding="Centroid" showMarkerSymbolInSurfacePlots="0" zoffset="0">
     <data-defined-properties>
       <Option type="Map">
         <Option name="name" type="QString" value=""/>
@@ -21,7 +21,7 @@
       </Option>
     </data-defined-properties>
     <profileLineSymbol>
-      <symbol name="" type="line" alpha="1" clip_to_extent="1" is_animated="0" frame_rate="10" force_rhr="0">
+      <symbol name="" clip_to_extent="1" type="line" is_animated="0" force_rhr="0" frame_rate="10" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -29,7 +29,7 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" class="SimpleLine" id="{943f8573-8785-4799-96e4-bf42cf246906}" enabled="1">
+        <layer class="SimpleLine" pass="0" enabled="1" locked="0" id="{2d0fb697-6d4b-4f82-b45a-a4c300ee7b0a}">
           <Option type="Map">
             <Option name="align_dash_pattern" type="QString" value="0"/>
             <Option name="capstyle" type="QString" value="square"/>
@@ -41,7 +41,7 @@
             <Option name="dash_pattern_offset_unit" type="QString" value="MM"/>
             <Option name="draw_inside_polygon" type="QString" value="0"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
-            <Option name="line_color" type="QString" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1"/>
+            <Option name="line_color" type="QString" value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1"/>
             <Option name="line_style" type="QString" value="solid"/>
             <Option name="line_width" type="QString" value="0.6"/>
             <Option name="line_width_unit" type="QString" value="MM"/>
@@ -70,7 +70,7 @@
       </symbol>
     </profileLineSymbol>
     <profileFillSymbol>
-      <symbol name="" type="fill" alpha="1" clip_to_extent="1" is_animated="0" frame_rate="10" force_rhr="0">
+      <symbol name="" clip_to_extent="1" type="fill" is_animated="0" force_rhr="0" frame_rate="10" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -78,15 +78,15 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" class="SimpleFill" id="{053f7f73-3cb2-436b-9044-385337627083}" enabled="1">
+        <layer class="SimpleFill" pass="0" enabled="1" locked="0" id="{7b92614a-f038-4f8c-859f-ab566056bc6f}">
           <Option type="Map">
             <Option name="border_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
-            <Option name="color" type="QString" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1"/>
+            <Option name="color" type="QString" value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="117,81,63,255,rgb:0.45937285420004575,0.31653315022507056,0.24649423971923401,1"/>
+            <Option name="outline_color" type="QString" value="182,113,16,255,rgb:0.71427481498435952,0.44252689402609291,0.06442359044785229,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_unit" type="QString" value="MM"/>
@@ -103,7 +103,7 @@
       </symbol>
     </profileFillSymbol>
     <profileMarkerSymbol>
-      <symbol name="" type="marker" alpha="1" clip_to_extent="1" is_animated="0" frame_rate="10" force_rhr="0">
+      <symbol name="" clip_to_extent="1" type="marker" is_animated="0" force_rhr="0" frame_rate="10" alpha="1">
         <data_defined_properties>
           <Option type="Map">
             <Option name="name" type="QString" value=""/>
@@ -111,18 +111,18 @@
             <Option name="type" type="QString" value="collection"/>
           </Option>
         </data_defined_properties>
-        <layer locked="0" pass="0" class="SimpleMarker" id="{8e166525-4754-4cfc-b2a7-6a1a1537ba19}" enabled="1">
+        <layer class="SimpleMarker" pass="0" enabled="1" locked="0" id="{526f0b31-01b7-4d17-95ce-fefdb150041b}">
           <Option type="Map">
             <Option name="angle" type="QString" value="0"/>
             <Option name="cap_style" type="QString" value="square"/>
-            <Option name="color" type="QString" value="164,113,88,255,rgb:0.64313725490196083,0.44313725490196076,0.34509803921568627,1"/>
+            <Option name="color" type="QString" value="255,158,23,255,rgb:1,0.61960784313725492,0.09019607843137255,1"/>
             <Option name="horizontal_anchor_point" type="QString" value="1"/>
             <Option name="joinstyle" type="QString" value="bevel"/>
             <Option name="name" type="QString" value="diamond"/>
             <Option name="offset" type="QString" value="0,0"/>
             <Option name="offset_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
             <Option name="offset_unit" type="QString" value="MM"/>
-            <Option name="outline_color" type="QString" value="117,81,63,255,rgb:0.45937285420004575,0.31653315022507056,0.24649423971923401,1"/>
+            <Option name="outline_color" type="QString" value="182,113,16,255,rgb:0.71427481498435952,0.44252689402609291,0.06442359044785229,1"/>
             <Option name="outline_style" type="QString" value="solid"/>
             <Option name="outline_width" type="QString" value="0.2"/>
             <Option name="outline_width_map_unit_scale" type="QString" value="3x:0,0,0,0,0,0"/>
@@ -154,38 +154,21 @@
       <Option name="variableValues"/>
     </Option>
   </customproperties>
-  <geometryOptions removeDuplicateNodes="0" geometryPrecision="0">
+  <geometryOptions geometryPrecision="0" removeDuplicateNodes="0">
     <activeChecks/>
     <checkConfiguration/>
   </geometryOptions>
-  <legend showLabelLegend="0" type="default-vector"/>
+  <legend type="default-vector" showLabelLegend="0"/>
   <referencedLayers/>
   <fieldConfiguration>
     <field name="rowid" configurationFlags="NoFlag">
       <editWidget type="TextEdit">
         <config>
-          <Option type="Map">
-            <Option name="IsMultiline" type="bool" value="false"/>
-            <Option name="UseHtml" type="bool" value="false"/>
-          </Option>
+          <Option/>
         </config>
       </editWidget>
     </field>
-    <field name="WindDirection" configurationFlags="NoFlag">
-      <editWidget type="Range">
-        <config>
-          <Option type="Map">
-            <Option name="AllowNull" type="bool" value="false"/>
-            <Option name="Max" type="double" value="359"/>
-            <Option name="Min" type="double" value="0"/>
-            <Option name="Precision" type="int" value="0"/>
-            <Option name="Step" type="double" value="1"/>
-            <Option name="Style" type="QString" value="Slider"/>
-          </Option>
-        </config>
-      </editWidget>
-    </field>
-    <field name="WindStrength" configurationFlags="NoFlag">
+    <field name="FactionA" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -197,23 +180,23 @@
             <Option name="FilterExpression" type="invalid"/>
             <Option name="Group" type="invalid"/>
             <Option name="Key" type="QString" value="id"/>
-            <Option name="Layer" type="QString" value="EnvTools_WindStrengthScale_b29c0f31_77fe_4d80_97ff_c113125fdb32"/>
-            <Option name="LayerName" type="QString" value="enums — EnvTools.WindStrengthScale"/>
+            <Option name="Layer" type="QString" value="countries_b7ad7b1a_b9eb_4967_b0e9_b48f85785525"/>
+            <Option name="LayerName" type="QString" value="portable — countries"/>
             <Option name="LayerProviderName" type="QString" value="ogr"/>
-            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/enums.sqlite3|layername=EnvTools.WindStrengthScale"/>
+            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/portable.sqlite3|layername=countries"/>
             <Option name="NofColumns" type="int" value="1"/>
             <Option name="OrderByDescending" type="bool" value="false"/>
             <Option name="OrderByField" type="bool" value="true"/>
-            <Option name="OrderByFieldName" type="QString" value="id"/>
+            <Option name="OrderByFieldName" type="QString" value="name"/>
             <Option name="OrderByKey" type="bool" value="false"/>
             <Option name="OrderByValue" type="bool" value="false"/>
             <Option name="UseCompleter" type="bool" value="false"/>
-            <Option name="Value" type="QString" value="Scale"/>
+            <Option name="Value" type="QString" value="name"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field name="Visibility" configurationFlags="NoFlag">
+    <field name="FactionB" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -225,23 +208,23 @@
             <Option name="FilterExpression" type="invalid"/>
             <Option name="Group" type="invalid"/>
             <Option name="Key" type="QString" value="id"/>
-            <Option name="Layer" type="QString" value="EnvTools_VisibilityScale_e4778b33_0c67_4ab5_9f0e_8f5b625e14a3"/>
-            <Option name="LayerName" type="QString" value="enums — EnvTools.VisibilityScale"/>
+            <Option name="Layer" type="QString" value="countries_b7ad7b1a_b9eb_4967_b0e9_b48f85785525"/>
+            <Option name="LayerName" type="QString" value="portable — countries"/>
             <Option name="LayerProviderName" type="QString" value="ogr"/>
-            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/enums.sqlite3|layername=EnvTools.VisibilityScale"/>
+            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/portable.sqlite3|layername=countries"/>
             <Option name="NofColumns" type="int" value="1"/>
             <Option name="OrderByDescending" type="bool" value="false"/>
             <Option name="OrderByField" type="bool" value="true"/>
-            <Option name="OrderByFieldName" type="QString" value="id"/>
+            <Option name="OrderByFieldName" type="QString" value="name"/>
             <Option name="OrderByKey" type="bool" value="false"/>
             <Option name="OrderByValue" type="bool" value="false"/>
             <Option name="UseCompleter" type="bool" value="false"/>
-            <Option name="Value" type="QString" value="Scale"/>
+            <Option name="Value" type="QString" value="name"/>
           </Option>
         </config>
       </editWidget>
     </field>
-    <field name="Precipitation" configurationFlags="NoFlag">
+    <field name="Status" configurationFlags="NoFlag">
       <editWidget type="ValueRelation">
         <config>
           <Option type="Map">
@@ -253,111 +236,69 @@
             <Option name="FilterExpression" type="invalid"/>
             <Option name="Group" type="invalid"/>
             <Option name="Key" type="QString" value="id"/>
-            <Option name="Layer" type="QString" value="EnvTools_PrecipitationScale_ccd07950_85af_4552_93d4_ac6933b497e3"/>
-            <Option name="LayerName" type="QString" value="enums — EnvTools.PrecipitationScale"/>
+            <Option name="Layer" type="QString" value="CoalitionStatus_7064761b_616c_4f98_b81c_9dc17d5f9a72"/>
+            <Option name="LayerName" type="QString" value="enums — CoalitionStatus"/>
             <Option name="LayerProviderName" type="QString" value="ogr"/>
-            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/enums.sqlite3|layername=EnvTools.PrecipitationScale"/>
+            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/enums.sqlite3|layername=CoalitionStatus"/>
             <Option name="NofColumns" type="int" value="1"/>
             <Option name="OrderByDescending" type="bool" value="false"/>
-            <Option name="OrderByField" type="bool" value="true"/>
-            <Option name="OrderByFieldName" type="QString" value="id"/>
-            <Option name="OrderByKey" type="bool" value="false"/>
+            <Option name="OrderByField" type="bool" value="false"/>
+            <Option name="OrderByFieldName" type="QString" value="rowid"/>
+            <Option name="OrderByKey" type="bool" value="true"/>
             <Option name="OrderByValue" type="bool" value="false"/>
             <Option name="UseCompleter" type="bool" value="false"/>
-            <Option name="Value" type="QString" value="Scale"/>
-          </Option>
-        </config>
-      </editWidget>
-    </field>
-    <field name="CloudCoverage" configurationFlags="NoFlag">
-      <editWidget type="ValueRelation">
-        <config>
-          <Option type="Map">
-            <Option name="AllowMulti" type="bool" value="false"/>
-            <Option name="AllowNull" type="bool" value="false"/>
-            <Option name="CompleterMatchFlags" type="int" value="2"/>
-            <Option name="Description" type="invalid"/>
-            <Option name="DisplayGroupName" type="bool" value="false"/>
-            <Option name="FilterExpression" type="invalid"/>
-            <Option name="Group" type="invalid"/>
-            <Option name="Key" type="QString" value="id"/>
-            <Option name="Layer" type="QString" value="EnvTools_CloudCoverageScale_afa817a9_96ec_425e_b652_9c54e81983bb"/>
-            <Option name="LayerName" type="QString" value="enums — EnvTools.CloudCoverageScale"/>
-            <Option name="LayerProviderName" type="QString" value="ogr"/>
-            <Option name="LayerSource" type="QString" value="C:/data/projects/mnw/qgisMissionPlanner/src/db/enums.sqlite3|layername=EnvTools.CloudCoverageScale"/>
-            <Option name="NofColumns" type="int" value="1"/>
-            <Option name="OrderByDescending" type="bool" value="false"/>
-            <Option name="OrderByField" type="bool" value="true"/>
-            <Option name="OrderByFieldName" type="QString" value="id"/>
-            <Option name="OrderByKey" type="bool" value="false"/>
-            <Option name="OrderByValue" type="bool" value="false"/>
-            <Option name="UseCompleter" type="bool" value="false"/>
-            <Option name="Value" type="QString" value="Scale"/>
+            <Option name="Value" type="QString" value="Status"/>
           </Option>
         </config>
       </editWidget>
     </field>
   </fieldConfiguration>
   <aliases>
-    <alias name="" index="0" field="rowid"/>
-    <alias name="" index="1" field="WindDirection"/>
-    <alias name="" index="2" field="WindStrength"/>
-    <alias name="" index="3" field="Visibility"/>
-    <alias name="" index="4" field="Precipitation"/>
-    <alias name="" index="5" field="CloudCoverage"/>
+    <alias index="0" name="" field="rowid"/>
+    <alias index="1" name="" field="FactionA"/>
+    <alias index="2" name="" field="FactionB"/>
+    <alias index="3" name="" field="Status"/>
   </aliases>
   <splitPolicies>
-    <policy field="rowid" policy="DefaultValue"/>
-    <policy field="WindDirection" policy="DefaultValue"/>
-    <policy field="WindStrength" policy="DefaultValue"/>
-    <policy field="Visibility" policy="DefaultValue"/>
-    <policy field="Precipitation" policy="DefaultValue"/>
-    <policy field="CloudCoverage" policy="DefaultValue"/>
+    <policy field="rowid" policy="Duplicate"/>
+    <policy field="FactionA" policy="DefaultValue"/>
+    <policy field="FactionB" policy="DefaultValue"/>
+    <policy field="Status" policy="DefaultValue"/>
   </splitPolicies>
   <duplicatePolicies>
     <policy field="rowid" policy="Duplicate"/>
-    <policy field="WindDirection" policy="Duplicate"/>
-    <policy field="WindStrength" policy="Duplicate"/>
-    <policy field="Visibility" policy="Duplicate"/>
-    <policy field="Precipitation" policy="Duplicate"/>
-    <policy field="CloudCoverage" policy="Duplicate"/>
+    <policy field="FactionA" policy="Duplicate"/>
+    <policy field="FactionB" policy="Duplicate"/>
+    <policy field="Status" policy="Duplicate"/>
   </duplicatePolicies>
   <defaults>
-    <default expression="" field="rowid" applyOnUpdate="0"/>
-    <default expression="0" field="WindDirection" applyOnUpdate="0"/>
-    <default expression="0" field="WindStrength" applyOnUpdate="0"/>
-    <default expression="0" field="Visibility" applyOnUpdate="0"/>
-    <default expression="0" field="Precipitation" applyOnUpdate="0"/>
-    <default expression="0" field="CloudCoverage" applyOnUpdate="0"/>
+    <default expression="" applyOnUpdate="0" field="rowid"/>
+    <default expression="" applyOnUpdate="0" field="FactionA"/>
+    <default expression="" applyOnUpdate="0" field="FactionB"/>
+    <default expression="0" applyOnUpdate="0" field="Status"/>
   </defaults>
   <constraints>
-    <constraint notnull_strength="1" unique_strength="1" field="rowid" exp_strength="0" constraints="3"/>
-    <constraint notnull_strength="1" unique_strength="0" field="WindDirection" exp_strength="0" constraints="1"/>
-    <constraint notnull_strength="1" unique_strength="0" field="WindStrength" exp_strength="0" constraints="1"/>
-    <constraint notnull_strength="1" unique_strength="0" field="Visibility" exp_strength="0" constraints="1"/>
-    <constraint notnull_strength="1" unique_strength="0" field="Precipitation" exp_strength="0" constraints="1"/>
-    <constraint notnull_strength="1" unique_strength="0" field="CloudCoverage" exp_strength="0" constraints="1"/>
+    <constraint exp_strength="0" notnull_strength="1" field="rowid" constraints="3" unique_strength="1"/>
+    <constraint exp_strength="0" notnull_strength="1" field="FactionA" constraints="1" unique_strength="0"/>
+    <constraint exp_strength="0" notnull_strength="1" field="FactionB" constraints="1" unique_strength="0"/>
+    <constraint exp_strength="0" notnull_strength="1" field="Status" constraints="1" unique_strength="0"/>
   </constraints>
   <constraintExpressions>
     <constraint desc="" field="rowid" exp=""/>
-    <constraint desc="" field="WindDirection" exp=""/>
-    <constraint desc="" field="WindStrength" exp=""/>
-    <constraint desc="" field="Visibility" exp=""/>
-    <constraint desc="" field="Precipitation" exp=""/>
-    <constraint desc="" field="CloudCoverage" exp=""/>
+    <constraint desc="" field="FactionA" exp=""/>
+    <constraint desc="" field="FactionB" exp=""/>
+    <constraint desc="" field="Status" exp=""/>
   </constraintExpressions>
   <expressionfields/>
   <attributeactions>
-    <defaultAction value="{00000000-0000-0000-0000-000000000000}" key="Canvas"/>
+    <defaultAction key="Canvas" value="{00000000-0000-0000-0000-000000000000}"/>
   </attributeactions>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;Status&quot;" sortOrder="0">
     <columns>
-      <column name="rowid" type="field" hidden="0" width="-1"/>
-      <column name="WindDirection" type="field" hidden="0" width="-1"/>
-      <column name="WindStrength" type="field" hidden="0" width="-1"/>
-      <column name="Visibility" type="field" hidden="0" width="-1"/>
-      <column name="Precipitation" type="field" hidden="0" width="-1"/>
-      <column name="CloudCoverage" type="field" hidden="0" width="-1"/>
+      <column name="rowid" type="field" hidden="1" width="-1"/>
+      <column name="FactionA" type="field" hidden="0" width="223"/>
+      <column name="FactionB" type="field" hidden="0" width="212"/>
+      <column name="Status" type="field" hidden="0" width="150"/>
       <column type="actions" hidden="1" width="-1"/>
     </columns>
   </attributetableconfig>
@@ -388,70 +329,64 @@ def my_form_open(dialog, layer, feature):
     control = dialog.findChild(QWidget, "MyLineEdit")
 ]]></editforminitcode>
   <featformsuppress>0</featformsuppress>
-  <editorlayout>tablayout</editorlayout>
+  <editorlayout>generatedlayout</editorlayout>
   <attributeEditorForm>
     <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-      <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
+      <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.3,-1,5,50,0,0,0,0,0"/>
     </labelStyle>
-    <attributeEditorContainer horizontalStretch="0" name="Wind" collapsed="0" verticalStretch="0" type="GroupBox" columnCount="2" showLabel="1" groupBox="1" collapsedExpressionEnabled="0" visibilityExpression="" visibilityExpressionEnabled="0" collapsedExpression="">
+    <attributeEditorContainer showLabel="1" name="Wind" type="GroupBox" collapsed="0" groupBox="1" horizontalStretch="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" collapsedExpression="" visibilityExpression="" columnCount="2" verticalStretch="0">
       <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-        <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+        <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
       </labelStyle>
-      <attributeEditorField horizontalStretch="0" name="WindDirection" verticalStretch="0" index="1" showLabel="1">
+      <attributeEditorField showLabel="1" name="WindDirection" index="-1" horizontalStretch="0" verticalStretch="0">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="WindStrength" verticalStretch="0" index="2" showLabel="1">
+      <attributeEditorField showLabel="1" name="WindStrength" index="-1" horizontalStretch="0" verticalStretch="0">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
-    <attributeEditorContainer horizontalStretch="0" name="Atmosphere" collapsed="0" verticalStretch="0" type="GroupBox" columnCount="2" showLabel="1" groupBox="1" collapsedExpressionEnabled="0" visibilityExpression="" visibilityExpressionEnabled="0" collapsedExpression="">
+    <attributeEditorContainer showLabel="1" name="Atmosphere" type="GroupBox" collapsed="0" groupBox="1" horizontalStretch="0" collapsedExpressionEnabled="0" visibilityExpressionEnabled="0" collapsedExpression="" visibilityExpression="" columnCount="2" verticalStretch="0">
       <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-        <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+        <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
       </labelStyle>
-      <attributeEditorField horizontalStretch="0" name="CloudCoverage" verticalStretch="0" index="5" showLabel="1">
+      <attributeEditorField showLabel="1" name="CloudCoverage" index="-1" horizontalStretch="0" verticalStretch="0">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="Precipitation" verticalStretch="0" index="4" showLabel="1">
+      <attributeEditorField showLabel="1" name="Precipitation" index="-1" horizontalStretch="0" verticalStretch="0">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
-      <attributeEditorField horizontalStretch="0" name="Visibility" verticalStretch="0" index="3" showLabel="1">
+      <attributeEditorField showLabel="1" name="Visibility" index="-1" horizontalStretch="0" verticalStretch="0">
         <labelStyle overrideLabelColor="0" overrideLabelFont="0" labelColor="">
-          <labelFont strikethrough="0" style="" bold="0" underline="0" italic="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
+          <labelFont italic="0" strikethrough="0" style="" bold="0" underline="0" description="MS Shell Dlg 2,8.25,-1,5,50,0,0,0,0,0"/>
         </labelStyle>
       </attributeEditorField>
     </attributeEditorContainer>
   </attributeEditorForm>
   <editable>
-    <field name="CloudCoverage" editable="1"/>
-    <field name="Precipitation" editable="1"/>
-    <field name="Visibility" editable="1"/>
-    <field name="WindDirection" editable="1"/>
-    <field name="WindStrength" editable="1"/>
+    <field name="FactionA" editable="1"/>
+    <field name="FactionB" editable="1"/>
+    <field name="Status" editable="1"/>
     <field name="rowid" editable="1"/>
   </editable>
   <labelOnTop>
-    <field name="CloudCoverage" labelOnTop="1"/>
-    <field name="Precipitation" labelOnTop="1"/>
-    <field name="Visibility" labelOnTop="1"/>
-    <field name="WindDirection" labelOnTop="1"/>
-    <field name="WindStrength" labelOnTop="1"/>
+    <field name="FactionA" labelOnTop="0"/>
+    <field name="FactionB" labelOnTop="0"/>
+    <field name="Status" labelOnTop="0"/>
     <field name="rowid" labelOnTop="0"/>
   </labelOnTop>
   <reuseLastValue>
-    <field reuseLastValue="0" name="CloudCoverage"/>
-    <field reuseLastValue="0" name="Precipitation"/>
-    <field reuseLastValue="0" name="Visibility"/>
-    <field reuseLastValue="0" name="WindDirection"/>
-    <field reuseLastValue="0" name="WindStrength"/>
-    <field reuseLastValue="0" name="rowid"/>
+    <field name="FactionA" reuseLastValue="0"/>
+    <field name="FactionB" reuseLastValue="0"/>
+    <field name="Status" reuseLastValue="0"/>
+    <field name="rowid" reuseLastValue="0"/>
   </reuseLastValue>
   <dataDefinedFieldProperties/>
   <widgets/>
